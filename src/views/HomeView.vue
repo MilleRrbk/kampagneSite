@@ -1,19 +1,25 @@
 <template>
   <div class="home-container">
     <!-- Your home view content goes here -->
-    <TitleText></TitleText>
+    <TitleText style="margin: 100px;"></TitleText>
+    <RoundedButton>Click Me</RoundedButton>
+    <HeroText></HeroText>
   </div>
 </template>
 
 <script>
 import { RouterLink } from 'vue-router';
 import TitleText from '@/components/TitleText.vue'
+import RoundedButton from '@/components/RoundedButton.vue'
+import HeroText from '@/components/HeroText.vue'
 
 export default {
   name: 'HomeView',
 
   components: {
     TitleText,
+    RoundedButton,
+    HeroText
   }
 }
 

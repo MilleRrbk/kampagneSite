@@ -16,8 +16,8 @@
   <script>
   import { RouterLink, RouterView } from 'vue-router'
   import Footer from './components/Footer.vue'
-  import TitleText from './components/TitleText.vue';
-
+  import TitleText from './components/TitleText.vue'
+  import HeroText from './components/HeroText.vue'
 
   export default {
     components: {
@@ -25,6 +25,7 @@
       RouterLink,
       Footer,
       TitleText,
+      HeroText,
     },
   };
   </script>
