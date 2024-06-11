@@ -1,11 +1,12 @@
 <template>
   <div id="app">
+
   <header>
     
   </header>
 
   <main>
-    
+    <RouterView></RouterView>
   </main>
 
 <Footer> </Footer>
@@ -15,12 +16,15 @@
   <script>
   import { RouterLink, RouterView } from 'vue-router'
   import Footer from './components/Footer.vue'
-  
+  import TitleText from './components/TitleText.vue';
+
+
   export default {
     components: {
       RouterView,
       RouterLink,
-      Footer
+      Footer,
+      TitleText,
     },
   };
   </script>
@@ -41,6 +45,5 @@ header {
 
 main {
   flex: 1;
-  padding: 20px;
 }
 </style>
