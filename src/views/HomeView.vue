@@ -1,9 +1,8 @@
 <template>
   <div class="home-container">
-    <!-- Your home view content goes here -->
-    <TitleText style="margin: 80px; padding-top: 50px;"></TitleText>
-    
-    <HeroText text="ejhjewjhr hejkrhwkerhkjwehrkjw rekwj rhwjerjhwerj wehjrhwjekhr"></HeroText>
+    <TitleText style="padding-left: 10%; padding-top: 6%;"></TitleText>
+    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%;">By Hooman Sharifi</p>
+    <HeroText style="padding-left: 10%;"></HeroText>
     
   </div>
 </template>

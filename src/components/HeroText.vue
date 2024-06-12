@@ -1,22 +1,23 @@
 <template>
-<p class="heroTextStyling text-mainSand"> {{ text }}</p>   
+<p class="heroTextStyling text-mainSand">Get ready for an <br> extraordinary performance <br>
+that explores cultural unity<br> and personal freedom</p>   
 </template>
    
    <script>
    export default {
-    props: ['text'],
+     name: 'HeroText'
    };
    </script>
    
    <style scoped>
-   .heroTextStyling {
+    .heroTextStyling {
     font-family: "pragmatica", sans-serif;
     font-weight: 700;
     font-style: italic;
      font-size: 3rem;
      text-align: left;
-     padding-left: 100px;
-     margin-top: 30%;
+     margin-top: 20%;
      margin-bottom: 30%;
-   }
+     line-height: 1.3;
+    }
    </style>
