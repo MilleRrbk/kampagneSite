@@ -1,8 +1,10 @@
 <template>
   <div class="home-container">
-    <TitleText style="padding-left: 10%; padding-top: 6%;"></TitleText>
+    <RoundedButton></RoundedButton>
+    <TitleText style="padding-left: 10%; padding-top: 4%;"></TitleText>
     <p class="pragmatica-bold text-mainSand" style="padding-left: 10%;">By Hooman Sharifi</p>
     <HeroText style="padding-left: 10%;"></HeroText>
+    <NewRouteButton></NewRouteButton>
     
   </div>
 </template>
@@ -12,7 +14,8 @@ import { RouterLink } from 'vue-router';
 import TitleText from '@/components/TitleText.vue'
 import RoundedButton from '@/components/RoundedButton.vue'
 import HeroText from '@/components/HeroText.vue'
-import TicketButton from '@/components/TicketButton.vue'
+import TicketButton from '@/components/NewRouteButton.vue'
+import NewRouteButton from '@/components/NewRouteButton.vue';
 
 export default {
   name: 'HomeView',
@@ -21,7 +24,7 @@ export default {
     TitleText,
     RoundedButton,
     HeroText,
-    TicketButton,
+    NewRouteButton,
   }
 }
 
@@ -38,5 +41,9 @@ export default {
   justify-content: center;
   align-items: left;
   position: relative;
+}
+
+.button-container {
+  flex: none; /* Prevents stretching */
 }
 </style>

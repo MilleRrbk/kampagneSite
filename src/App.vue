@@ -18,7 +18,7 @@
   import Footer from './components/Footer.vue'
   import TitleText from './components/TitleText.vue'
   import HeroText from './components/HeroText.vue'
-  import TicketButton from './components/TicketButton.vue'
+  import TicketButton from './components/NewRouteButton.vue'
 
   export default {
     components: {

@@ -8,17 +8,19 @@
 
    <script>
    export default {
-     name: 'RoundedButton'
+     name: 'NewRouteButton'
    };
    </script>
    
    <style scoped>
 
-   .button-container {
+.button-container {
     flex: none;
-    text-align: right;
+    text-align: left;
     margin-top: 2%;
     margin-right: 4%;
+    padding-left: 10%;
+    padding-bottom: 10%;
    }
     .button-24 {
         /*background: #cfba9b00;
