@@ -1,14 +1,15 @@
 <template>
     <div class="button-container">
-        <button class="button-24 pragmatica-bold text-mainSand" role="button">TICKETS</button>
-    </div>
+      <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b20" class="buttonTicket pragmatica-bold text-mainSand" target="_blank" rel="noopener noreferrer">
+      TICKETS
+    </a>    </div>
    </template>
 
     
 
    <script>
    export default {
-     name: 'RoundedButton'
+     name: 'TicketButton'
    };
    </script>
    
@@ -17,10 +18,10 @@
    .button-container {
     flex: none;
     text-align: right;
-    margin-top: 2%;
-    margin-right: 4%;
+    margin-top: 3%;
+    margin-right: 6%;
    }
-    .button-24 {
+    .buttonTicket {
         /*background: #cfba9b00;
         border: 0px solid #e7d6bc;
         border-radius: 3px;
@@ -29,23 +30,17 @@
         cursor: pointer;
         display: inline-block;
         font-size: 1.5rem;
-        font-weight: 800;
-        line-height: 16px;
         min-height: 40px;
-        padding: 16px 25px;
-        text-align: center;
-        text-rendering: geometricprecision;
-        touch-action: manipulation;
-        vertical-align: middle;   
+        text-align: left;
     }
     
-    .button-24:hover,
-    .button-24:active {
+    .buttonTicket:hover,
+    .buttonTicket:active {
     font-family: "gloss-drop", cursive;
-
+    letter-spacing: .1rem;
 }
 
-.button-24:active {
+.buttonTicket:active {
   opacity: .5;
 }
    </style>

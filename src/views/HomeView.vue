@@ -1,8 +1,8 @@
 <template>
   <div class="home-container">
     <RoundedButton></RoundedButton>
-    <TitleText style="padding-left: 10%; padding-top: 4%;"></TitleText>
-    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%;">By Hooman Sharifi</p>
+    <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
+    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%; font-size: 1.2rem;">By Hooman Sharifi</p>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
     
@@ -12,9 +12,8 @@
 <script>
 import { RouterLink } from 'vue-router';
 import TitleText from '@/components/TitleText.vue'
-import RoundedButton from '@/components/RoundedButton.vue'
+import RoundedButton from '@/components/TicketButton.vue'
 import HeroText from '@/components/HeroText.vue'
-import TicketButton from '@/components/NewRouteButton.vue'
 import NewRouteButton from '@/components/NewRouteButton.vue';
 
 export default {
