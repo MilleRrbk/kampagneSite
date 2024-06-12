@@ -1,7 +1,5 @@
 <template>
-    <button class="rounded-button bg-mainSand text-mainRed">
-        <slot></slot>
-    </button>
+    <button class="button-24" role="button">Buy Tickets</button>
    </template>
 
     
@@ -14,20 +12,37 @@
    
    <style scoped>
 
-.rounded-button {
-  border: none; /* Remove borders */
-  padding: 25px 62px; /* Some padding */
-  text-align: center; /* Center the text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Get the element to respect width/height */
-  font-size: 16px; /* Increase font size */
-  margin: 4px 2px; /* Some margin */
-  cursor: pointer; /* Pointer/hand icon */
-  border-radius: 40px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth transition */
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "pragmatica", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  touch-action: manipulation;
+  vertical-align: middle;
 }
 
-.rounded-button:hover {
-  background-color: #DDC8AF; /* Darker green on hover */
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
 }
    </style>

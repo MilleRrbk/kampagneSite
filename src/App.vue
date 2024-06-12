@@ -18,6 +18,7 @@
   import Footer from './components/Footer.vue'
   import TitleText from './components/TitleText.vue'
   import HeroText from './components/HeroText.vue'
+  import TicketButton from './components/TicketButton.vue'
 
   export default {
     components: {
@@ -26,6 +27,7 @@
       Footer,
       TitleText,
       HeroText,
+      TicketButton,
     },
   };
   </script>
@@ -39,9 +41,7 @@
 }
 
 header {
-  background-color: #5b3a3a;
-  padding: 10px;
-  text-align: center;
+  
 }
 
 main {

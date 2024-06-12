@@ -1,9 +1,10 @@
 <template>
   <div class="home-container">
     <!-- Your home view content goes here -->
-    <TitleText style="margin: 100px;"></TitleText>
-    <RoundedButton>Click Me</RoundedButton>
-    <HeroText></HeroText>
+    <TitleText style="margin: 80px; padding-top: 50px;"></TitleText>
+    
+    <HeroText text="ejhjewjhr hejkrhwkerhkjwehrkjw rekwj rhwjerjhwerj wehjrhwjekhr"></HeroText>
+    
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import { RouterLink } from 'vue-router';
 import TitleText from '@/components/TitleText.vue'
 import RoundedButton from '@/components/RoundedButton.vue'
 import HeroText from '@/components/HeroText.vue'
+import TicketButton from '@/components/TicketButton.vue'
 
 export default {
   name: 'HomeView',
@@ -19,7 +21,8 @@ export default {
   components: {
     TitleText,
     RoundedButton,
-    HeroText
+    HeroText,
+    TicketButton,
   }
 }
 
@@ -27,14 +30,14 @@ export default {
 
 <style scoped>
 .home-container {
-  background-image: url('/src/assets/imgs/whiteSandBg.png'); /* Adjust the path to your image */
+  background-image: url('/src/assets/imgs/sitebgHD.png'); 
   background-size: cover;
-  background-position: center;
+  background-position: top;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: white; /* Adjust text color to contrast with background */
+  align-items: left;
+  position: relative;
 }
 </style>
