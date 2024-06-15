@@ -1,21 +1,26 @@
 <template>
   <div class="more-container">
-    <TitleText2 style="padding-left: 10%; "></TitleText2>
+    <div class="more-overlay"></div> <!-- Gradient overlay -->
+    <TitleText2 style="padding-right: 10%;"></TitleText2>
+    <HeroText2 style="padding-right: 10%;"></HeroText2>
+    <TicketButton2></TicketButton2>
   </div>
 </template>
 
 <script>
-import { RouterLink } from 'vue-router';
-import TitleText2 from '@/components/morestuff/TitleText2.vue'
+import TitleText2 from '@/components/morestuff/TitleText2.vue';
+import HeroText2 from '@/components/morestuff/HeroText2.vue';
+import TicketButton2 from '@/components/morestuff/TicketButton2.vue';
 
 export default {
   name: 'MoreView',
 
   components: {
     TitleText2,
-  }
-}
-
+    HeroText2,
+    TicketButton2,
+  },
+};
 </script>
 
 <style scoped>
@@ -31,4 +36,12 @@ export default {
   position: relative;
 }
 
+.more-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
 </style>

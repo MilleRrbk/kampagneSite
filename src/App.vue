@@ -1,46 +1,45 @@
 <template>
   <div id="app">
+    <header>
+      <!-- Your header content -->
+    </header>
 
-  <header>
-    
-  </header>
+    <main>
+      <RouterView></RouterView>
+    </main>
 
-  <main>
-    <RouterView></RouterView>
-  </main>
-
-<Footer> </Footer>
-</div>
+    <Footer></Footer>
+  </div>
 </template>
 
-  <script>
-  import { RouterLink, RouterView } from 'vue-router'
-  import Footer from './components/Footer.vue'
-  import TitleText from './components/homestuff/TitleText.vue'
-  import HeroText from './components/homestuff/HeroText.vue'
-  import TicketButton from './components/homestuff/NewRouteButton.vue'
+<script>
+import { RouterView } from 'vue-router';
+import Footer from './components/Footer.vue'; // Adjust path if needed
 
-  export default {
-    components: {
-      RouterView,
-      RouterLink,
-      Footer,
-      TitleText,
-      HeroText,
-      TicketButton,
-    },
-  };
-  </script>
+export default {
+  name: 'App',
+  components: {
+    RouterView,
+    Footer,
+    // Add other components as needed
+  },
+};
+</script>
 
-<style scoped>
-/* Global styles can go here */
+<style>
 #app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+  overflow: hidden; /* Prevent gradient overlay from causing overflow */
 }
 
 main {
   flex: 1;
+  position: relative; /* Ensure stacking context for z-index of content */
+  z-index: 2; /* Ensure content is above the gradient overlay */
 }
+
+/* Other styles can be scoped or global based on needs */
 </style>

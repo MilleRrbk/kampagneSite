@@ -1,5 +1,5 @@
 <template>
-    <p class="TitleText2Styling text-mainSand">Language of the body</p>   
+    <p class="TitleText2Styling text-mainSand">The Power of Dance</p>   
     </template>
        
        <script>
@@ -13,9 +13,10 @@
         font-family: "pragmatica", sans-serif;
         font-weight: 700;
         font-style: italic;
-        font-size: clamp(1.5rem, 2.5vw, 3rem); /* responsive font size */
+        font-size: clamp(1.5vw, 3.5vw, 4vw); /* responsive font size */
          text-align: right;
          margin-top: 10%;
          line-height: 1.3;
+         z-index: 10;
         }
        </style>

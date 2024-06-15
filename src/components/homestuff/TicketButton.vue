@@ -1,6 +1,6 @@
 <template>
   <div class="button-container">
-    <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b20" class="buttonTicket pragmatica-bold text-mainSand btn-shine" target="_blank" rel="noopener noreferrer" id="buttonText">
+    <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b20" class="buttonTicket pragmatica-bold text-mainSand" target="_blank" rel="noopener noreferrer" id="buttonText">
       TICKETS
     </a>
   </div>
@@ -46,15 +46,19 @@ export default {
 .buttonTicket {
   cursor: pointer;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
   min-height: 40px;
   text-align: left;
   padding: 12px 48px;
+  text-decoration: underline;
+
 }
 
 .buttonTicket:hover,
 .buttonTicket:active {
-color: #e1ceb1}
+  font-family: "gloss-drop", cursive;
+  letter-spacing: .1rem;
+}
 
 .buttonTicket:active {
   opacity: .2;

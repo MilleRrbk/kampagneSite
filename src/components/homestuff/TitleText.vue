@@ -30,9 +30,11 @@
   <style scoped>
   .titleStyling {
     font-family: "gloss-drop", cursive;
-    font-size: clamp(4.5rem, 5.3vw, 6rem); /* responsive font size */
+    font-size: clamp(4.5rem, 6vw, 6rem); /* responsive font size */
     text-align: left;
     line-height: 1.4;
+    z-index: 10;
+
   }
   
   .letter {
