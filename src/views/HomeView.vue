@@ -2,7 +2,7 @@
   <div class="home-container">
     <RoundedButton></RoundedButton>
     <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
-    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%; font-size: 1.2rem;">By Hooman Sharifi</p>
+    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%; font-size: 1.2rem;      letter-spacing: 0.3px;">By Hooman Sharifi</p>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
     
@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .home-container {
-  background-image: url('/src/assets/imgs/sitebgHD.png'); 
+  background-image: url('/src/assets/imgs/sitebg-newhighlight.png'); 
   background-size: cover;
   background-position: top;
   min-height: 100vh;

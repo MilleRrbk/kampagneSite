@@ -1,8 +1,8 @@
 <!-- src/components/Footer.vue -->
 <template>
     <footer class="footer bg-mainBlack text-mainSand">
-      <!-- Footer content goes here -->
-      <p>Metropolis CullBerg</p>
+      <img src="@/assets/imgs/cullberglogo.png" alt="CullBerg logo" class="logo">
+      <img src="@/assets/imgs/metrologo.png" alt="Metropolis logo" class="logo">
     </footer>
   </template>
   
@@ -14,11 +14,17 @@
   
   <style scoped>
   .footer {
-    text-align: center;
+    text-align: left;
     padding: 20px;
     position: static;
     bottom: 0;
     width: 100%;
+  }
+
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3%;
   }
   </style>
   

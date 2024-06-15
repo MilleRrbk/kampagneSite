@@ -40,10 +40,6 @@
   flex-direction: column;
 }
 
-header {
-  
-}
-
 main {
   flex: 1;
 }
