@@ -2,7 +2,7 @@
   <div class="home-container">
     <RoundedButton></RoundedButton>
     <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
-    <p class="pragmatica-bold text-mainSand" style="padding-left: 10%; font-size: 1.2rem;      letter-spacing: 0.3px;">By Hooman Sharifi</p>
+    <p class="pragmatica-bold text-mainSand" style="padding-top: 1%; padding-left: 10%; font-size: 1.1rem;      letter-spacing: 0.3px; opacity: 0.8;">By Hooman Sharifi</p>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
     

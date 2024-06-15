@@ -2,10 +2,10 @@
 <template>
     <footer class="footer bg-mainBlack text-mainSand">
         <a href="https://cullberg.com/en/performance/when-in-battle-im-free-never-free-to-rest/" target="_blank" rel="noopener noreferrer">
-      <img src="@/assets/imgs/cullberglogo.png" alt="CullBerg logo" class="logo">
+      <img src="@/assets/imgs/cullberglogo.png" alt="CullBerg logo" class="logo cullSize">
     </a>
     <a href="https://www.metropolis.dk/while-in-battle/" target="_blank" rel="noopener noreferrer">
-      <img src="@/assets/imgs/metrologo.png" alt="Metropolis logo" class="logo">
+      <img src="@/assets/imgs/metrologo.png" alt="Metropolis logo" class="logo metroSize">
     </a>
     </footer>
   </template>
@@ -29,6 +29,13 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0 4%;
+  }
+
+  .cullSize {
+    height: 4vh;
+  }
+  .metroSize {
+    height: 3vh;
   }
   </style>
   

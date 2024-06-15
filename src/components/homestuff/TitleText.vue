@@ -30,9 +30,9 @@
   <style scoped>
   .titleStyling {
     font-family: "gloss-drop", cursive;
-    font-size: 6rem;
+    font-size: clamp(4.5rem, 5.3vw, 6rem); /* responsive font size */
     text-align: left;
-    line-height: 1.2;
+    line-height: 1.4;
   }
   
   .letter {
@@ -41,7 +41,7 @@
   }
   
   .letter:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
   </style>
   

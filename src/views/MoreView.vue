@@ -1,17 +1,18 @@
 <template>
   <div class="more-container">
-    <p>hej</p>
+    <TitleText2 style="padding-left: 10%; "></TitleText2>
   </div>
 </template>
 
 <script>
 import { RouterLink } from 'vue-router';
-
+import TitleText2 from '@/components/morestuff/TitleText2.vue'
 
 export default {
   name: 'MoreView',
 
   components: {
+    TitleText2,
   }
 }
 
@@ -19,14 +20,14 @@ export default {
 
 <style scoped>
 .more-container {
-  background-image: url('/src/assets/imgs/moreBG.png'); 
+  background-image: url('/src/assets/imgs/morebg-dancer2.png'); 
   background-size: cover;
   background-position: top;
-  min-height: 100vh;
+  min-height: 94vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
+  justify-content: top;
+  align-items: right;
   position: relative;
 }
 

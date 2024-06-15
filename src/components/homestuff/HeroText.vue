@@ -14,7 +14,7 @@ that explores cultural unity<br> and personal freedom</p>
     font-family: "pragmatica", sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: clamp(1.5rem, 2.5vw, 3rem); /* responsive font size */
+    font-size: clamp(2rem, 3vw, 3.5rem); /* responsive font size */
      text-align: left;
      margin-top: 17%;
      line-height: 1.3;
