@@ -11,10 +11,10 @@
 
 <script>
 import { RouterLink } from 'vue-router';
-import TitleText from '@/components/TitleText.vue'
-import RoundedButton from '@/components/TicketButton.vue'
-import HeroText from '@/components/HeroText.vue'
-import NewRouteButton from '@/components/NewRouteButton.vue';
+import TitleText from '@/components/homestuff/TitleText.vue'
+import RoundedButton from '@/components/homestuff/TicketButton.vue'
+import HeroText from '@/components/homestuff/HeroText.vue'
+import NewRouteButton from '@/components/homestuff/NewRouteButton.vue';
 
 export default {
   name: 'HomeView',

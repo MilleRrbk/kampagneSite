@@ -16,9 +16,9 @@
   <script>
   import { RouterLink, RouterView } from 'vue-router'
   import Footer from './components/Footer.vue'
-  import TitleText from './components/TitleText.vue'
-  import HeroText from './components/HeroText.vue'
-  import TicketButton from './components/NewRouteButton.vue'
+  import TitleText from './components/homestuff/TitleText.vue'
+  import HeroText from './components/homestuff/HeroText.vue'
+  import TicketButton from './components/homestuff/NewRouteButton.vue'
 
   export default {
     components: {
