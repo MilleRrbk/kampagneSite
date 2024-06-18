@@ -1,6 +1,6 @@
 <template>
 <p class="heroTextStyling text-mainSand">Get ready for an <br> extraordinary performance <br>
-that explores cultural unity<br> and personal freedom</p>   
+that explores personal freedom<br> and cultural unity</p>   
 </template>
    
    <script>
