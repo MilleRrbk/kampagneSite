@@ -24,11 +24,11 @@
     },
     created() {
       // Initialize images array with image URLs
-      this.images = Array.from({ length: 23 }, (_, i) => `/src/assets/imgs/dancers/d${i + 1}.png`);
+      this.images = Array.from({ length: 21 }, (_, i) => `/src/assets/imgs/dancers/d${i + 1}.png`);
       // Initialize currentImage array to display each image initially
-      this.currentImage = Array.from({ length: 23 }, (_, i) => this.images[i]);
+      this.currentImage = Array.from({ length: 21 }, (_, i) => this.images[i]);
       // Initialize hoverIntervals with null values
-      this.hoverIntervals = Array(23).fill(null);
+      this.hoverIntervals = Array(21).fill(null);
     },
     methods: {
       startHover(index) {
@@ -53,14 +53,18 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Optional: to wrap images if they overflow the container */
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 40%;
   }
   
   .image-wrapper {
-    margin: 1%;
+    margin-right: 5%;
+    margin-bottom: 3%;
   }
   
   .small-image {
-    width: 50px; /* Adjust size as needed */
+    width: 60px; /* Adjust size as needed */
     height: auto; /* Adjust size as needed */
     mix-blend-mode: multiply;
   }

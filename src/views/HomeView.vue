@@ -3,7 +3,9 @@
     <div class="home-overlay"></div> <!-- Gradient overlay -->
     <TicketButton></TicketButton>
     <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
-    <p class="pragmatica-bold text-mainSand" style="padding-top: 1%; padding-left: 10%; font-size: 1.1rem; letter-spacing: 0.3px; opacity: 0.8;">By Hooman Sharifi</p>
+    <p class="pragmatica-bold text-mainSand" style="padding-top: 1%; padding-left: 10%; font-size: 1.1rem; letter-spacing: 0.3px; opacity: 0.9;">By Hooman Sharifi</p>
+
+    <p class="dancerTextStyling text-mainSand">Meet the dancers</p>
     <ImageHover></ImageHover>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
@@ -63,5 +65,16 @@ export default {
   flex: none; /* Prevents stretching */
   position: relative; /* Ensure stacking context for z-index */
   z-index: 2; /* Ensure content is above the overlay */
+}
+
+.dancerTextStyling {
+      font-family: "pragmatica", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: clamp(2.5vw, 2vw, 3rem); 
+      text-align: left;
+      padding-left: 10%;
+      padding-top: 9%;
+      opacity: 0.9;
 }
 </style>
