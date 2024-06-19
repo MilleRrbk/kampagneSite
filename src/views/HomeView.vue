@@ -15,6 +15,7 @@ import TitleText from '@/components/homestuff/TitleText.vue'
 import TicketButton from '@/components/homestuff/TicketButton.vue'
 import HeroText from '@/components/homestuff/HeroText.vue'
 import NewRouteButton from '@/components/homestuff/NewRouteButton.vue';
+import HomeButton from '@/components/morestuff/HomeButton.vue';
 
 export default {
   name: 'HomeView',
@@ -24,6 +25,7 @@ export default {
     TicketButton,
     HeroText,
     NewRouteButton,
+    HomeButton,
   }
 }
 

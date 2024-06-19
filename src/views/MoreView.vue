@@ -1,6 +1,7 @@
 <template>
   <div class="more-container">
-    <div class="more-overlay"></div> <!-- Gradient overlay -->
+    <div class="more-overlay"></div> 
+    <HomeButton></HomeButton>
     <TitleText2 style="padding-right: 10%;"></TitleText2>
     <HeroText2 style="padding-right: 10%;"></HeroText2>
     <InfoText></InfoText>
@@ -13,6 +14,7 @@ import TitleText2 from '@/components/morestuff/TitleText2.vue';
 import HeroText2 from '@/components/morestuff/HeroText2.vue';
 import TicketButton2 from '@/components/morestuff/TicketButton2.vue';
 import InfoText from '@/components/morestuff/InfoText.vue';
+import HomeButton from '@/components/morestuff/HomeButton.vue';
 
 export default {
   name: 'MoreView',
@@ -22,6 +24,7 @@ export default {
     HeroText2,
     TicketButton2,
     InfoText,
+    HomeButton,
   },
 };
 </script>

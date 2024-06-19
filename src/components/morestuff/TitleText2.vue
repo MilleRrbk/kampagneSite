@@ -14,8 +14,10 @@
         font-weight: 700;
         font-style: italic;
         font-size: clamp(1.5vw, 3.5vw, 4vw); /* responsive font size */
-         text-align: right;
-         margin-top: 8%;
+         text-align: left;
+         margin-top: 0%;
+         margin-bottom: 2%;
+         padding-left: 10%;
          line-height: 1.3;
          z-index: 10;
         }

@@ -15,11 +15,13 @@
         font-family: "pragmatica", sans-serif;
         font-weight: 400;
         font-style: italic;
-        font-size: clamp(1.5rem, 1.8vw, 3.5rem); /* responsive font size */
-         text-align: right;
-         padding-top: 5vh;
+        font-size: clamp(1.5rem, 1.8vw, 3.5rem);
+        text-align: left;
+        padding-top: 3%;
+        padding-left: 10%;
+        margin-right: 30%;
+        margin-bottom: 5%;
          line-height: 1.3;
          z-index: 10;
-        margin-left: 25%;
         }
        </style>

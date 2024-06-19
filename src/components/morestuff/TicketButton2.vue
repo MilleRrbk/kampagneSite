@@ -38,9 +38,10 @@
   <style>
   .button-container2 {
     flex: none;
-    text-align: right;
+    text-align: left;
     margin-top: 5%;
-    padding-right: 10%;
+    margin-bottom: 5%;
+    padding-left: 10%;
   }
   
   .buttonTicket2 {

@@ -1,21 +1,17 @@
 <template>
     <div class="button-container">
-      <RouterLink to="/home" class="buttonMore pragmatica-bold text-mainSand">
+      <RouterLink to="/home" class="buttonHome pragmatica-bold text-mainSand">
         <span v-html="buttonText"></span>
       </RouterLink>
     </div>
-  </template>
-  
-  
-  
-      
+  </template>  
   
   <script>
   export default {
-    name: 'NewRouteButton',
+    name: 'HomeButton',
     data() {
       return {
-        buttonText: 'HOME'
+        buttonText: 'BACK'
       };
     },
     mounted() {
@@ -31,7 +27,7 @@
   
         // Add wavy class to each <span> with a delay
         this.$nextTick(() => {
-          const spans = document.querySelectorAll('.buttonMore span');
+          const spans = document.querySelectorAll('.buttonHome span');
           spans.forEach((span, index) => {
             setTimeout(() => {
               span.classList.add('wavy');
@@ -43,34 +39,32 @@
   }
   </script>
   
-  
-  
   <style scoped>
   .button-container {
-    flex: none;
-    text-align: left;
-    margin-bottom: 18%;
-    padding-top: 3%;
-    padding-left: 10%;
-    padding-bottom: 10%;
-  }
+  flex: none;
+  text-align: right;
+  margin-top: 3%;
+  margin-right: 6%;
+}
+
+  .buttonHome {
+  cursor: pointer;
+  display: inline-block;
+  font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
+  min-height: 40px;
+  text-align: left;
+  padding: 12px 48px;
+  text-decoration: underline;
+
+}
   
-  .buttonMore {
-    cursor: pointer;
-    display: inline-block;
-    font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
-    min-height: 40px;
-    text-align: left;
-    text-decoration: underline;
-  }
-  
-  .buttonMore:hover,
-  .buttonMore:active {
+  .buttonHome:hover,
+  .buttonHome:active {
     font-family: "gloss-drop", cursive;
     letter-spacing: .1rem;
   }
   
-  .buttonMore:active {
+  .buttonHome:active {
     opacity: .2;
   }
   

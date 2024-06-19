@@ -10,6 +10,10 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/home',
+      redirect: '/'  // Redirect /home to root path if needed
+    },
+    {
       path: '/more',
       name: 'more',
       // route level code-splitting
