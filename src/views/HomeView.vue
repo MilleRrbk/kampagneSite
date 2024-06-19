@@ -4,6 +4,7 @@
     <TicketButton></TicketButton>
     <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
     <p class="pragmatica-bold text-mainSand" style="padding-top: 1%; padding-left: 10%; font-size: 1.1rem; letter-spacing: 0.3px; opacity: 0.8;">By Hooman Sharifi</p>
+    <ImageHover></ImageHover>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
   </div>
@@ -16,6 +17,7 @@ import TicketButton from '@/components/homestuff/TicketButton.vue'
 import HeroText from '@/components/homestuff/HeroText.vue'
 import NewRouteButton from '@/components/homestuff/NewRouteButton.vue';
 import HomeButton from '@/components/morestuff/HomeButton.vue';
+import ImageHover from '@/components/homestuff/ImageHover.vue';
 
 export default {
   name: 'HomeView',
@@ -26,6 +28,7 @@ export default {
     HeroText,
     NewRouteButton,
     HomeButton,
+    ImageHover,
   }
 }
 

@@ -1,5 +1,5 @@
 <template>
-<p class="heroTextStyling text-mainSand">Get ready for an <br> extraordinary performance <br>
+<p class="heroTextStyling text-mainSand">Get ready for an <br> extraordinary dance performance <br>
 that explores personal freedom<br> and cultural unity</p>   
 </template>
    
@@ -16,7 +16,7 @@ that explores personal freedom<br> and cultural unity</p>
       font-style: italic;
       font-size: clamp(2.5vw, 4vw, 3rem); 
       text-align: left;
-      margin-top: 17%;
+      margin-top: 10%;
       line-height: 1.3;
       z-index: 10;
     }

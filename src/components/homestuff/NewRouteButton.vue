@@ -50,7 +50,7 @@ export default {
   flex: none;
   text-align: left;
   margin-bottom: 18%;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-left: 10%;
   padding-bottom: 10%;
 }
