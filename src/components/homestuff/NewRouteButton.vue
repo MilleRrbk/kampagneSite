@@ -49,7 +49,7 @@ export default {
 .button-container {
   flex: none;
   text-align: left;
-  margin-bottom: 18%;
+  margin-bottom: 15%;
   padding-top: 1%;
   padding-left: 10%;
   padding-bottom: 10%;

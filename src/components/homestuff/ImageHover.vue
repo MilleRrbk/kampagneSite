@@ -53,18 +53,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Optional: to wrap images if they overflow the container */
-    padding-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 10%;
-    padding-right: 40%;
+    padding-right: 5%;
   }
   
   .image-wrapper {
-    margin-right: 5%;
+    margin-right: 6%;
     margin-bottom: 3%;
   }
   
   .small-image {
-    width: 60px; /* Adjust size as needed */
+    width: 95px; /* Adjust size as needed */
     height: auto; /* Adjust size as needed */
     mix-blend-mode: multiply;
   }

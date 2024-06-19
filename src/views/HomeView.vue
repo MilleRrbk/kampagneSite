@@ -1,12 +1,10 @@
 <template>
   <div class="home-container">
     <div class="home-overlay"></div> <!-- Gradient overlay -->
-    <TicketButton></TicketButton>
+  
+    <DancersButton></DancersButton>
     <TitleText style="padding-left: 10%; padding-top: 2%;"></TitleText>
     <p class="pragmatica-bold text-mainSand" style="padding-top: 1%; padding-left: 10%; font-size: 1.1rem; letter-spacing: 0.3px; opacity: 0.9;">By Hooman Sharifi</p>
-
-    <p class="dancerTextStyling text-mainSand">Meet the dancers</p>
-    <ImageHover></ImageHover>
     <HeroText style="padding-left: 10%;"></HeroText>
     <NewRouteButton></NewRouteButton>
   </div>
@@ -20,6 +18,7 @@ import HeroText from '@/components/homestuff/HeroText.vue'
 import NewRouteButton from '@/components/homestuff/NewRouteButton.vue';
 import HomeButton from '@/components/morestuff/HomeButton.vue';
 import ImageHover from '@/components/homestuff/ImageHover.vue';
+import DancersButton from '@/components/homestuff/DancersButton.vue';
 
 export default {
   name: 'HomeView',
@@ -31,6 +30,7 @@ export default {
     NewRouteButton,
     HomeButton,
     ImageHover,
+    DancersButton,
   }
 }
 

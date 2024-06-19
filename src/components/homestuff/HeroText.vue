@@ -16,7 +16,7 @@ that explores personal freedom<br> and cultural unity</p>
       font-style: italic;
       font-size: clamp(2.5vw, 4vw, 3rem); 
       text-align: left;
-      margin-top: 5%;
+      margin-top: 15%;
       line-height: 1.3;
       z-index: 10;
     }
