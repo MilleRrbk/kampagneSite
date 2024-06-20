@@ -23,11 +23,11 @@
       };
     },
     created() {
-      // Initialize images array with image URLs
+      // initialize images array with image urls
       this.images = Array.from({ length: 21 }, (_, i) => `/src/assets/imgs/dancers/d${i + 1}.png`);
-      // Initialize currentImage array to display each image initially
+    
       this.currentImage = Array.from({ length: 21 }, (_, i) => this.images[i]);
-      // Initialize hoverIntervals with null values
+      // initialize hoverIntervals with null values
       this.hoverIntervals = Array(21).fill(null);
     },
     methods: {
@@ -35,7 +35,7 @@
         let counter = 0;
         this.hoverIntervals[index] = setInterval(() => {
           counter = (counter + 1) % this.images.length;
-          // Update currentImage directly
+          // update currentImage directly
           this.currentImage.splice(index, 1, this.images[counter]);
         }, 300);
       },
@@ -52,7 +52,7 @@
   .image-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Optional: to wrap images if they overflow the container */
+    flex-wrap: wrap;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -65,8 +65,8 @@
   }
   
   .small-image {
-    width: 95px; /* Adjust size as needed */
-    height: auto; /* Adjust size as needed */
+    width: 95px; 
+    height: auto; 
     mix-blend-mode: multiply;
   }
   </style>

@@ -19,13 +19,13 @@
     },
     methods: {
       applyWavyAnimation() {
-        // Split the text into individual characters and wrap each with <span>
+        // split the text into individual characters and wrap each with <span>
         this.buttonText = this.buttonText
           .split('')
           .map(letter => `<span>${letter}</span>`)
           .join('');
   
-        // Add wavy class to each <span> with a delay
+        // add wavy class to each <span> with a delay
         this.$nextTick(() => {
           const spans = document.querySelectorAll('.buttonHome span');
           spans.forEach((span, index) => {
@@ -50,8 +50,7 @@
   .buttonHome {
   cursor: pointer;
   display: inline-block;
-  font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
-  min-height: 40px;
+  font-size: clamp(1.5rem, 2vw, 3rem); 
   text-align: left;
   padding: 12px 48px;
   text-decoration: underline;

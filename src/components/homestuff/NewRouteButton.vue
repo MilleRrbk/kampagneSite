@@ -58,7 +58,7 @@ export default {
 .buttonMore {
   cursor: pointer;
   display: inline-block;
-  font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
+  font-size: clamp(1.5rem, 2vw, 3rem); 
   min-height: 40px;
   text-align: left;
   text-decoration: underline;

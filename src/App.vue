@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <!-- Your header content -->
+     
     </header>
 
     <main>
@@ -14,14 +14,13 @@
 
 <script>
 import { RouterView } from 'vue-router';
-import Footer from './components/Footer.vue'; // Adjust path if needed
+import Footer from './components/Footer.vue'; 
 
 export default {
   name: 'App',
   components: {
     RouterView,
     Footer,
-    // Add other components as needed
   },
 };
 </script>
@@ -32,14 +31,12 @@ export default {
   display: flex;
   flex-direction: column;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
-  overflow: hidden; /* Prevent gradient overlay from causing overflow */
+  overflow: hidden; 
 }
 
 main {
   flex: 1;
-  position: relative; /* Ensure stacking context for z-index of content */
-  z-index: 2; /* Ensure content is above the gradient overlay */
+  position: relative; 
+  z-index: 2; 
 }
-
-/* Other styles can be scoped or global based on needs */
 </style>

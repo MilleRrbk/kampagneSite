@@ -46,7 +46,7 @@ export default {
 .buttonTicket {
   cursor: pointer;
   display: inline-block;
-  font-size: clamp(1.5rem, 2vw, 3rem); /* responsive font size */
+  font-size: clamp(1.5rem, 2vw, 3rem); 
   min-height: 40px;
   text-align: left;
   padding: 12px 48px;

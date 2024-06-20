@@ -13,7 +13,7 @@
         font-family: "pragmatica", sans-serif;
         font-weight: 700;
         font-style: italic;
-        font-size: clamp(1.5vw, 3.5vw, 4vw); /* responsive font size */
+        font-size: clamp(1.5vw, 3.5vw, 4vw);
          text-align: left;
          margin-top: 0%;
          margin-bottom: 2%;

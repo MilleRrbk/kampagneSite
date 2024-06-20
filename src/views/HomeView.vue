@@ -38,15 +38,15 @@ export default {
 
 <style scoped>
 .home-container {
-  position: relative; /* Ensure stacking context for z-index */
+  position: relative; /* ensure stacking context for z-index */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  overflow: hidden; /* Prevent gradient overlay from causing overflow */
+  overflow: hidden; /* prevent gradient overlay from causing overflow */
 
-  /* Background image */
+  /* background image */
   background-image: url('/src/assets/imgs/sitebg-newhighlight.png'); 
   background-size: cover;
   background-position: top;
@@ -62,9 +62,9 @@ export default {
 }
 
 .button-container {
-  flex: none; /* Prevents stretching */
-  position: relative; /* Ensure stacking context for z-index */
-  z-index: 2; /* Ensure content is above the overlay */
+  flex: none; /* prevents stretching */
+  position: relative; /* ensure stacking context for z-index */
+  z-index: 2; /* ensure content is above the overlay */
 }
 
 .dancerTextStyling {
